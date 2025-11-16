@@ -1,0 +1,43 @@
+@use 'colors' as c;
+@use 'variables' as v;
+@use 'mixins' as m;
+@use 'typography';
+@use 'components';
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: v.$font-primary;
+	background-color: c.$bg-primary;
+	color: c.$text-primary;
+	min-height: 100vh;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+}
+
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: c.$bg-secondary;
+}
+
+::-webkit-scrollbar-thumb {
+	background: c.$bg-tertiary;
+	border-radius: 5px;
+
+	&:hover {
+		background: c.$accent-primary;
+	}
+}

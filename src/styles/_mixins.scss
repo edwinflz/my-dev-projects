@@ -1,0 +1,31 @@
+@use 'variables' as v;
+
+@mixin tablet {
+	@media (min-width: v.$tablet) {
+		@content;
+	}
+}
+
+@mixin desktop {
+	@media (min-width: v.$desktop) {
+		@content;
+	}
+}
+
+@mixin mobile-only {
+	@media (max-width: #{v.$tablet - 1px}) {
+		@content;
+	}
+}
+
+@mixin flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+@mixin flex-between {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
