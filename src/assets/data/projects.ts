@@ -27,4 +27,13 @@ export const projects: Project[] = [
 		demoUrl: 'https://social-links-profile-three-tau.vercel.app/',
 		repoUrl: 'https://github.com/edwinflz/social-links-profile'
 	},
+	{
+		id: 3,
+		title: 'Blog Preview Card',
+		description: 'This HTML & CSS-only challenge is a perfect project for beginners getting up to speed with HTML and CSS fundamentals, like HTML structure and the box model.',
+		image: '/images/blog-preview-card.webp',
+		tags: ['HTML5', 'SCSS'],
+		demoUrl: 'https://blog-preview-card-bay-alpha.vercel.app/',
+		repoUrl: 'https://github.com/edwinflz/blog-preview-card'
+	},
 ];
