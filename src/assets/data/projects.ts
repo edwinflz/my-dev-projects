@@ -18,4 +18,13 @@ export const projects: Project[] = [
 		demoUrl: 'https://recipe-page-silk-omega.vercel.app/',
 		repoUrl: 'https://github.com/edwinflz/recipe-page'
 	},
+	{
+		id: 2,
+		title: 'Social Links Profile',
+		description: 'In this small project, you\'ll build out your social link-sharing profile. You can even personalize it and use it to share all your social profiles!',
+		image: '/images/social-links-profile.webp',
+		tags: ['HTML5', 'SCSS'],
+		demoUrl: 'https://social-links-profile-three-tau.vercel.app/',
+		repoUrl: 'https://github.com/edwinflz/social-links-profile'
+	},
 ];

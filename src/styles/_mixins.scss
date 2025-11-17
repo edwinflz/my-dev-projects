@@ -12,12 +12,6 @@
 	}
 }
 
-@mixin mobile-only {
-	@media (max-width: #{v.$tablet - 1px}) {
-		@content;
-	}
-}
-
 @mixin flex-center {
 	display: flex;
 	align-items: center;
